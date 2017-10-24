@@ -1,0 +1,250 @@
+
+*{margin:0 ; padding:0}
+
+body {background-color: #e6ebe0; }
+
+.main {font-family: 'Raleway', sans-serif;}
+
+a {text-decoration: none;}
+
+
+/*PAGE LANGUES*/
+
+.main_logo {display: flex;
+						margin-top: 100px;
+						padding-bottom: 100px;
+						justify-content: center;
+						}
+
+.main_text {display: flex;
+						flex-direction: row;
+						justify-content: center;
+						text-transform: uppercase;
+						font-size: 25px;
+						font-weight: bold;
+						}
+
+.main_text a {color: #5ca4a9;}
+
+.fr {	margin-right: 50px;}
+
+/*HEADER*/
+
+.header {display: flex;
+				justify-content: center;
+				margin-top: 40px;
+
+				}
+
+nav {background-color: #2eb5a5;
+		max-width: 940px;
+		margin: 0 auto !important;
+		}
+
+.main_menu {display: flex;
+						padding: 20px;
+						justify-content: space-around;
+						}
+
+nav ul li a {color: white;
+						font-size: 25px;
+						}
+
+
+
+
+
+/*BODY PAGE HOME*/
+
+section {
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				margin-top: 30px !important;
+				}
+#slide {
+		align-items: center;
+	  width: 1480px;
+		height: 300px;
+		overflow: hidden;
+		margin-left:199px;
+		margin-top: 0px;
+	}
+	.my
+.rose {background-color: #ed6a5a;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			max-width: 940px;
+			margin: 30px auto !important;
+			}
+
+.content {background-color: #9bc1bc;
+					max-width: 940px;
+					margin: 30px auto !important;
+					}
+
+.princess {display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					}
+
+.piece1 {margin-top: 15px;
+				margin-bottom: 15px
+				}
+
+.piece2 {margin-top: 15px;
+				margin-bottom: 15px
+				}
+
+
+
+/*BODY PAGE PRODUCTS*/
+
+.flexbox {display: flex;
+					/*border: 1px red solid;*/
+					width: 900px;
+					margin-right: auto;
+					margin-left: auto;
+					}
+
+.category {display: flex;
+					background-color: #d1e0d8;
+					max-height: 250px;
+					text-align: center;
+					min-width: 200px;
+					margin-top: 30px !important;
+					}
+
+.title {background-color: #ed6a5a;
+				color: white;
+				font-size: 25px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				min-width: 200px;
+				}
+
+.mark {font-size: 18px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			color: #5ca4a9;
+			font-weight: bold;
+			}
+
+.onceupon {background-color: #9bc1bc;
+					max-width: 660px;
+					margin: 30px auto !important;
+					margin-left: 50px !important;
+					}
+
+.princess {display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					}
+
+.piece1 {margin-top: 30px;
+				margin-bottom: 15px
+				}
+
+.piece2 {margin-top: 15px;
+				margin-bottom: 30px
+				}
+
+
+/*CONTACT*/
+
+.bloc {background-color: #ed6a5a;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			max-width: 420px;
+			margin: 30px auto !important;
+			color: white;
+			font-size: 25px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			}
+
+.contenu { display: flex;
+			 }
+
+
+
+input,textarea {padding:5px;
+	margin: 0;
+	background-color:#FFF;
+	width:200px;
+	font-size:20px;
+	color: #5ca4a9;
+	 font-family: 'Raleway', sans-serif;
+}
+
+#nom { margin: 10px 0 0 0;
+	border: 1px solid #5ca4a9;
+	color: #5ca4a9;
+	width:420px}
+#email { display: flex;
+	margin: 20px 0 0 0;
+	border: 1px solid #5ca4a9;
+	color: #5ca4a9;
+	width:420px}
+#objet { margin: 20px 0 0 0;
+	border: 1px solid #5ca4a9;
+	color: #5ca4a9;
+	 width:420px }
+#message { margin: 20px 0 0 0;
+	 border: 1px solid #5ca4a9;
+	 color: #5ca4a9;
+	 width:420px;
+	 font-family: 'Raleway', sans-serif;
+ 	}
+#fichier{ margin: 20px 0 0 0;
+	border: 1px solid #5ca4a9;
+	color: #5ca4a9;
+	width:420px;
+font-family: 'Raleway', sans-serif;}
+#tel{ margin: 20px 0 0 0;
+	border: 1px solid #5ca4a9;
+	color: #5ca4a9;
+	 width:420px;
+ font-family: 'Raleway', sans-serif;}
+#envoi_message{ margin: 0px 0 0 0;
+	 border:none;
+	 background-color: #ed6a5a;
+	 color: white;
+	 font-size:25px;
+	 padding:2px;
+ font-family: 'Raleway', sans-serif;}
+
+
+
+/*FOOTER*/
+
+.bleu {background-color: #2eb5a5;
+			display: flex;
+			justify-content: center;
+			max-width: 940px;
+			margin: 30px auto !important;
+			height: 100px
+			}
+
+
+/* /////////////////////////////////////*/
+	/*MEDIA QUERIES*/
+/*/////////////////////////////////////*/
+
+@media all and (max-device-width: 480px){
+	header {background-color: crimson;}
+}
+@media all and (min-width:571px){
+	header {background-color: pink;}
+}
+@media all and (min-width:655px){
+	header {background-color: blue;}
+}
+@media all and (min-width:684px){
+	header {background-color: crimson;}
+}
+@media all and (min-width:960px){
+	header {background-color: black;}
+}
